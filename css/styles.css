@@ -3,7 +3,11 @@
     --main-color: #212121; 
     --second-color: #757575;
     --next-color: #FFFFFF;
-  }
+    --primary-black-color: #000000;
+    --bg-color:#2F303A;
+    --second-bg-color: #F5F4FA;
+    --address-link-color: rgba(255, 255, 255, 0.6);
+}
  
 body {
     font-family: 'Roboto',  Tahoma, sans-serif;
@@ -24,7 +28,7 @@ body {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    color: #000000;
+    color: var(--primary-black-color);
 
 }
 .logo {
@@ -54,7 +58,7 @@ body {
     color: var(--accent-color);
 }
 .hero{
-    background-color: #2F303A;
+    background-color: var(--bg-color);
  }
 .hero-title{
     font-weight: 900;
@@ -76,6 +80,7 @@ body {
     cursor: pointer;
 }
 .about-us-title{
+    font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
 }
@@ -100,7 +105,7 @@ body {
     color: var(--second-color);
 }
 .footer{
-    background-color: #2F303A;
+    background-color: var(--bg-color);
     }
 .footer-logo {
     font-family: 'Raleway';
@@ -122,7 +127,7 @@ body {
 .footer-address-link{
     font-style: normal;
     line-height: 1.71;
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--address-link-color);
 }
 .portfolio-btn{
     cursor: pointer;
@@ -131,7 +136,7 @@ body {
     font-size: 16px;
     line-height: 1.62;
     color: var(--main-color);
-    background-color: F5F4FA;
+    background-color: var(--second-bg-color);
 
 }
 .portfolio-btn:hover,
