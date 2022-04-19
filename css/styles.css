@@ -49,6 +49,10 @@ ul {
     margin: 0 auto;
 
 }
+.section{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 .header {
     padding-top: 24px;
     padding-bottom: 25px;
@@ -112,10 +116,7 @@ ul {
     color: var(--next-color);
     cursor: pointer;
 }
-.about-us {
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
+
 .about-us-title{
     font-size: 14px;
     line-height: 1.14;
@@ -134,10 +135,6 @@ ul {
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
-}
-.our-team{
-    padding-top: 94px;
-    padding-bottom: 94px;
 }
 .our-team-name{
     font-weight: 500;
@@ -176,10 +173,7 @@ ul {
     line-height: 1.71;
     color: var(--address-link-color);
 }
-.portfolio{
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
+
 .portfolio-navigation-list{
     margin-bottom: 50px;
 }
