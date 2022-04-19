@@ -16,13 +16,43 @@ body {
     letter-spacing: 0.03em;
     font-size: 14px;
 }
+p, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+ul {
+    padding-left: 0;
+    margin: 0;
+}
 .link {
     text-decoration: none;
 }
 .list {
     list-style: none;
 }
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+  }
+  
+.conteiner{
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
 
+}
+.header {
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
 .header-logo {
     font-family: 'Raleway';
     font-weight: 700;
@@ -59,12 +89,15 @@ body {
 }
 .hero{
     background-color: var(--bg-color);
+    padding-top: 200px;
+    padding-bottom: 200px;
  }
 .hero-title{
+    margin-bottom: 30px;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    text-align: center;
+    /* text-align: center; */
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--next-color);
@@ -79,6 +112,10 @@ body {
     color: var(--next-color);
     cursor: pointer;
 }
+.about-us {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 .about-us-title{
     font-size: 14px;
     line-height: 1.14;
@@ -88,11 +125,19 @@ body {
     line-height: 1.71;
     color: var(--second-color);
 }
+.our-work{
+    padding-bottom: 94px;
+}
 .our-work-title,
 .our-team-title{
+    margin-bottom: 50px;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
+}
+.our-team{
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 .our-team-name{
     font-weight: 500;
@@ -106,6 +151,8 @@ body {
 }
 .footer{
     background-color: var(--bg-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
     }
 .footer-logo {
     font-family: 'Raleway';
@@ -128,6 +175,13 @@ body {
     font-style: normal;
     line-height: 1.71;
     color: var(--address-link-color);
+}
+.portfolio{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.portfolio-navigation-list{
+    margin-bottom: 50px;
 }
 .portfolio-btn{
     cursor: pointer;
