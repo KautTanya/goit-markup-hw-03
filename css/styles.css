@@ -41,7 +41,7 @@ ul {
     clip-path: inset(50%);
     margin: -1px;
   }
-  
+ 
 .conteiner{
     width: 1200px;
     padding-left: 15px;
@@ -53,11 +53,10 @@ ul {
     padding-top: 94px;
     padding-bottom: 94px;
 }
-.header {
-    padding-top: 24px;
-    padding-bottom: 25px;
-}
+
 .header-logo {
+    margin-right: 92px;
+
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
@@ -68,7 +67,26 @@ ul {
 .logo {
     color: var(--accent-color);
 }
+.main-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navigation{
+    display: flex;
+    align-items: center;
+}
+.navigation-list{
+    display: flex;
+}
+.navigation-list-item:not(:last-child){
+    margin-right: 50px;
+}
 .navigation-list-link {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
@@ -77,7 +95,18 @@ ul {
 .current {
     color: var(--accent-color);
 }
+.header-list{
+    display: flex;
+}
+.header-list-item:not(:last-child){
+    margin-right: 50px;
+}
+
 .header-list-link{
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
@@ -107,6 +136,8 @@ ul {
     color: var(--next-color);
 }
 .hero-btn{
+    padding: 10px 32px;
+    
     background-color: var(--accent-color);
     font-family: 'Roboto';
     font-weight: 700;
